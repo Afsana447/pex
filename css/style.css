@@ -1,0 +1,859 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/*header css start*/
+.header{
+	width: 100%;
+	background: url("../images/background.png") center top no-repeat;
+	background-size: cover;
+}
+.header .fixed-top{
+	width: 100%;
+	background: #553f4b;
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 20px;
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+	color: #833647;
+	background: url("../images/divider.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .submit .btn{
+	padding: 10px 48px;
+	border-radius: 35px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #b6b6b6;
+	background: #fff;
+	border: 1px solid #fff;
+	transition: 1s;
+	box-shadow: none;
+	position: relative;
+	margin: 0px 0px 0px 15px;
+}
+.header .navbar-nav .nav-link.active{
+	background: url("../images/divider.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .submit .btn:hover, .header .submit .btn:focus{
+    color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.header .submit .fa{
+	color:  #b6b6b6;
+	font-size: 14px;
+	right: 5%;
+    top: 40%;
+	position: absolute;
+}
+/*banner css start*/
+.banner{
+	width: 100%;
+	padding: 80px 0px 180px;
+	text-align: right;
+}
+.inner-banner{
+	padding: 80px 0px 180px;
+}
+.inner-banner h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 600;
+	color: #fff;
+}
+.inner-banner .btn-primary{
+	padding: 12px 45px;
+	border-radius: 35px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	background: #8824cd;
+	border: 1px solid #8824cd;
+	transition: 1s;
+	position: relative;
+	margin: 30px 0px 10px ;
+}
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+	color: #fff;
+	background: transparent !important;
+	border: 1px solid #fff !important;
+}
+.inner-banner p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+/*about section css start*/
+.about-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2e3b4e;
+}
+.about-section .title h4{
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px 0px 15px;
+}
+.about-section .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+}
+.inner-about{
+	padding: 40px 0px 0px;
+}
+/*wicked css start*/
+.wicked{
+	width: 100%;
+	padding: 80px 0px 120px;
+	text-align: center;
+	background: url("../images/pink.png") center  no-repeat;
+	background-size: cover;
+}
+.inner-wicked{
+	padding: 80px 0px;
+}
+.inner-wicked h3{
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.inner-wicked p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin: 20px 0px 0px;
+}
+.inner-wicked .btn-primary{
+	padding: 15px 80px;
+	border-radius: 35px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #d54c63;
+	background: #fff;
+	border: 1px solid #fff;
+	transition: 1s;
+	letter-spacing: 1px;
+	margin: 30px 0px 0px ;
+}
+.inner-wicked .btn-primary:hover, .inner-wicked .btn-primary:focus{
+	color: #fff;
+	background: transparent !important;
+	border: 1px solid #fff !important;
+}
+.what-need{
+	width: 100%;
+}
+.inner-need{
+	width: 90%;
+	padding: 80px 0px 0px 40px;
+}
+.what-need .title{
+	padding: 80px 0px;
+	margin: 0px 0px 0px 180px;
+}
+.inner-need h3{
+	font-size: 16px;
+	font-weight: 700;
+	color: #5f6c7a;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.inner-need h6{
+	font-size: 16px;
+	line-height: 26px;
+	color: #3a4d60;
+}
+.inner-need p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #3a4d60;
+}
+.what-need .title h3{
+	font-size: 16px;
+	font-weight: 700;
+	color: #5f6c7a;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.what-need .title h6{
+	font-size: 16px;
+	line-height: 26px;
+	color: #3a4d60;
+}
+.what-need .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #3a4d60;
+}
+
+/*rush css start*/
+.rush{
+	width: 100%;
+	padding: 80px 0px 120px;
+	text-align: center;
+	background: url("../images/bkg.png") center  no-repeat;
+	background-size: cover;
+}
+.inner-rush{
+	padding: 80px 0px;
+}
+.inner-rush h3{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.inner-rush p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #a87bb7;
+	margin: 20px 0px 0px;
+}
+.inner-rush .btn-primary{
+	padding: 12px 40px;
+	border-radius: 35px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #8824cd;
+	border: 1px solid #8824cd;
+	transition: 1s;
+	letter-spacing: 1px;
+	margin: 30px 0px 0px ;
+}
+.inner-rush .btn-primary:hover, .inner-rush .btn-primary:focus{
+	color: #fff;
+	background: transparent !important;
+	border: 1px solid #fff !important;
+}
+.inner-rush span{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	display: block;
+	margin: 20px 0px 0px;
+}
+.layer{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/layer.png") center no-repeat;
+	background-size: cover;
+}
+.layer .inner-layer{
+	padding: 180px 0px 0px 120px;
+}
+.inner-layer .btn-primary{
+	padding: 8px 20px;
+	border-radius: 35px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: transparent !important;
+	border: 1px solid #fff;
+	transition: 1s;
+	margin: 30px 0px 0px ;
+}
+.inner-layer .btn-primary:hover, .inner-layer .btn-primary:focus{
+	color: #000 !important;
+	background: #fff !important;
+	border: 1px solid #fff !important;
+}
+.layer .inner-layer h3{
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 600;
+	color: #fff;
+	margin: 15px 0px 0px;
+}
+.layer .inner-layer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin: 15px 0px 0px;
+}
+/*Get in css start*/
+.get-in{
+	width: 100%;
+	padding: 90px 0px 180px;
+	background: #e7526b;
+}
+.get-in .inner-touch{
+	margin: 0px 0px 0px 120px;
+}
+.inner-touch h5{
+	font-size: 18px;	
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.inner-touch p{
+	font-size: 14px;
+	line-height: 26px;	
+	font-weight: 400;
+	color: #fff;
+}
+.inner-touch a{
+	font-size: 14px;	
+	font-weight: 400;
+	color: #fff;
+}
+/*footer css start*/
+.footer{
+	width: 100%;
+	padding: 40px 0px 80px;
+	background: #2e3b4e;
+}
+.footer .inner-footer{
+	margin: 0px 0px 0px 120px;
+}
+.footer .inner-footer p{
+	font-size: 14px;
+	line-height: 26px;	
+	font-weight: 400;
+	color: #fff;
+}
+
+/* 
+  ##Device = Smartphones Mobiles (Galaxy-fold)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px){
+  
+         /* CSS Start*/   
+        .header .navbar-toggler .fa-bars{
+               color: #fff;        
+        }   
+        .header .navbar-toggler:focus{
+               box-shadow: 1px 1px 1px #506a85;
+         }   
+         .header .navbar-nav .nav-item .nav-link{
+              margin: 0px;  
+         } 
+	    .header .submit .btn {
+	          padding: 8px 20px;
+	          margin: 0px;
+        }          
+          .banner {
+             padding: 40px 0px;
+        }
+		 .inner-banner h2 {
+		    font-size: 22px;
+		    line-height: 32px;
+		}
+
+		.inner-banner .btn-primary {
+		    padding: 8px 20px;
+		}
+
+		.inner-banner p {
+		    font-size: 10px;
+		}
+
+        .wicked {
+        	padding: 40px 0px;
+        }
+
+		.inner-wicked .btn-primary {
+		    padding: 8px 20px;
+		    font-size: 15px;
+		}
+
+		.inner-need h3 {
+		    font-size: 11px;
+		}
+
+		.inner-need h6 {
+		    font-size: 12px;
+		}
+
+		.inner-need p {
+		    font-size: 8px;
+        }
+        .rush{
+        	padding: 40px 0px;
+        }
+        .inner-rush h3 {
+            font-size: 20px
+        }
+        .inner-rush p {
+            font-size: 10px;
+        }        
+		.inner-rush .btn-primary {
+		    padding: 8px 20px;
+            font-size: 15px;
+		}				
+		.inner-rush span {
+		    font-size: 12px;
+		}
+		.layer{
+			padding: 40px 0px;
+		}
+		.layer .inner-layer {
+            padding: 80px 0px ;
+        }
+
+		.layer .inner-layer h3 {
+		    font-size: 28px;
+		    line-height: 38px;
+		}
+
+		.layer .inner-layer p {
+		    font-size: 8px;
+		}
+
+		.what-need .title {
+		    padding: 40px 0px;
+		    margin: 80px 0px ;
+		}
+		.what-need .title h3 {
+		    font-size: 15px;
+		}
+
+		.what-need .title h6 {
+		    font-size: 14px;
+		}
+
+		.what-need .title p {
+		    font-size: 10px;
+	    }
+
+		.get-in {
+		    padding: 80px 0px;
+		}
+	   .get-in .inner-touch {
+	        margin: 40px 0px;
+	    }
+	    .footer{
+	    	padding: 20px 0px;
+	    }
+        .footer .inner-footer{
+			margin: 20px 0px ;
+		}
+
+		.footer .inner-footer p {
+		    font-size: 8px;
+		    line-height: 18px;
+		}
+         /* CSS End*/
+  
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+  
+           /* CSS Start*/
+        .header .navbar-toggler .fa-bars{
+               color: #fff;        
+        }  
+        .header .navbar-toggler:focus{
+              box-shadow: 1px 1px 1px #fff;
+         }  
+        .header .navbar-nav .nav-item .nav-link{
+              margin: 0px;  
+         } 
+	     .header .submit .btn {
+	          padding: 8px 20px;
+	          margin: 0px;
+        }         
+         .banner {
+             padding: 40px 0px;
+        }
+		 .inner-banner {
+		    padding: 80px 0px;
+		}
+		 .inner-banner h2 {
+		    font-size: 24px;
+		    line-height: 34px;
+		}
+		.inner-banner .btn-primary {
+		    padding: 8px 20px;
+		    margin: 10px 0px;
+		}
+
+		.inner-banner p {
+		    font-size: 10px;
+		}
+		.about-section .title p {
+		    font-size: 10px;
+		    line-height: 20px;
+		}
+        .wicked {
+        	padding: 40px 0px;
+        }
+		.inner-wicked .btn-primary {
+		    padding: 8px 20px;
+		    font-size: 15px;
+		}
+		.inner-need h3 {
+		    font-size: 11px;
+		}
+		.inner-need h6 {
+		    font-size: 12px;
+		}
+		.inner-need p {
+		    font-size: 8px;
+        }
+        .rush{
+        	padding: 40px 0px;
+        }
+        .inner-rush h3 {
+            font-size: 20px
+        }
+        .inner-rush p {
+            font-size: 10px;
+        }        
+		.inner-rush .btn-primary {
+		    padding: 8px 20px;
+            font-size: 15px;
+		}				
+		.inner-rush span {
+		    font-size: 12px;
+		}
+		.layer{
+			padding: 40px 0px;
+		}
+		.layer .inner-layer {
+            padding: 80px 0px ;
+        }
+		.layer .inner-layer h3 {
+		    font-size: 28px;
+		    line-height: 38px;
+		}
+		.layer .inner-layer p {
+		    font-size: 12px;
+		}
+
+		.what-need .title {
+		    padding: 40px 0px;
+		    margin: 80px 0px ;
+		}
+		.what-need .title h3 {
+		    font-size: 15px;
+		}
+
+		.what-need .title h6 {
+		    font-size: 14px;
+		}
+		.what-need .title p {
+		    font-size: 12px;
+		    line-height: 22px;
+	    }
+
+		.get-in {
+		    padding: 80px 0px;
+		}
+	   .get-in .inner-touch {
+	        margin: 40px 0px;
+	    }
+
+		.inner-touch p {
+		    font-size: 12px;
+		    line-height: 24px;
+		}
+	    .footer{
+	    	padding: 20px 0px;
+	    }
+        .footer .inner-footer{
+			margin: 20px 0px ;
+		}
+
+		.footer .inner-footer p {
+		    font-size: 12px;
+		    line-height: 22px;
+		}
+
+          /* CSS End*/
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+            /* CSS Start*/
+        .header .navbar-toggler .fa-bars{
+               color: #fff;        
+        }   
+        .header .navbar-toggler:focus{
+               box-shadow: 1px 1px 1px #506a85;
+        } 
+        .header .navbar-nav .nav-item .nav-link{
+               margin: 0px;  
+         }         
+	     .header .submit .btn {
+	          padding: 8px 20px;
+	          margin: 0px;
+        }         
+         .banner {
+             padding: 40px 0px;
+        }
+		 .inner-banner {
+		    padding: 80px 0px;
+		}
+		 .inner-banner h2 {
+		    font-size: 24px;
+		    line-height: 34px;
+		}
+		.inner-banner .btn-primary {
+		    padding: 8px 20px;
+		    margin: 10px 0px;
+		}
+
+		.inner-banner p {
+		    font-size: 10px;
+		}
+
+		.about-section .title p {
+		    font-size: 10px;
+		    line-height: 20px;
+		}
+        .wicked {
+        	padding: 40px 0px;
+        }
+		.inner-wicked .btn-primary {
+		    padding: 8px 20px;
+		    font-size: 15px;
+		}
+
+		.inner-need h3 {
+		    font-size: 11px;
+		}
+
+		.inner-need h6 {
+		    font-size: 12px;
+		}
+
+		.inner-need p {
+		    font-size: 8px;
+        }
+        .rush{
+        	padding: 40px 0px;
+        }
+        .inner-rush h3 {
+            font-size: 20px
+        }
+        .inner-rush p {
+            font-size: 10px;
+        }        
+		.inner-rush .btn-primary {
+		    padding: 8px 20px;
+            font-size: 15px;
+		}				
+		.inner-rush span {
+		    font-size: 12px;
+		}
+		.layer{
+			padding: 40px 0px;
+		}
+		.layer .inner-layer {
+            padding: 80px 0px ;
+        }
+		.layer .inner-layer h3 {
+		    font-size: 28px;
+		    line-height: 38px;
+		}
+		.layer .inner-layer p {
+		    font-size: 12px;
+		}
+
+		.what-need .title {
+		    padding: 40px 0px;
+		    margin: 80px 0px ;
+		}
+		.what-need .title h3 {
+		    font-size: 15px;
+		}
+
+		.what-need .title h6 {
+		    font-size: 14px;
+		}
+		.what-need .title p {
+		    font-size: 12px;
+		    line-height: 22px;
+	    }
+
+		.get-in {
+		    padding: 80px 0px;
+		}
+	   .get-in .inner-touch {
+	        margin: 40px 0px;
+	    }
+
+		.inner-touch p {
+		    font-size: 12px;
+		    line-height: 24px;
+		}
+	    .footer{
+	    	padding: 20px 0px;
+	    }
+        .footer .inner-footer{
+			margin: 20px 0px ;
+		}
+
+		.footer .inner-footer p {
+		    font-size: 12px;
+		    line-height: 22px;
+		}
+ 
+            /* CSS End*/
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+              /* CSS Start*/
+        .header .navbar-toggler .fa-bars{
+               color: #fff;        
+        } 
+        .header .navbar-toggler:focus{
+            box-shadow: 1px 1px 1px #fff;
+         }
+         .header .navbar-nav .nav-item .nav-link{
+               margin: 0px;  
+         }
+         .header .submit .btn{
+               margin: 0px;
+         }
+         .about-section .title p {
+		    font-size: 10px;
+		    line-height: 20px;
+		}
+        .wicked {
+        	padding: 40px 0px;
+        }
+		.inner-wicked .btn-primary {
+		    padding: 8px 20px;
+		    font-size: 15px;
+		}
+
+		.inner-need h3 {
+		    font-size: 11px;
+		}
+
+		.inner-need h6 {
+		    font-size: 12px;
+		}
+
+		.inner-need p {
+		    font-size: 8px;
+        }
+        .rush{
+        	padding: 40px 0px;
+        }
+        .inner-rush h3 {
+            font-size: 20px
+        }
+        .inner-rush p {
+            font-size: 10px;
+        }        
+		.inner-rush .btn-primary {
+		    padding: 8px 20px;
+            font-size: 15px;
+		}				
+		.inner-rush span {
+		    font-size: 12px;
+		}
+		.layer{
+			padding: 40px 0px;
+		}
+		.layer .inner-layer {
+            padding: 80px 0px ;
+        }
+		.layer .inner-layer h3 {
+		    font-size: 28px;
+		    line-height: 38px;
+		}
+		.layer .inner-layer p {
+		    font-size: 12px;
+		}
+
+		.what-need .title {
+		    padding: 40px 0px;
+		    margin: 80px 0px ;
+		}
+
+		.what-need .img-fluid {
+		    width: 100%;
+		    height: 100%;
+		}
+		.what-need .title h3 {
+		    font-size: 15px;
+		}
+
+		.what-need .title h6 {
+		    font-size: 14px;
+		}
+		.what-need .title p {
+		    font-size: 12px;
+		    line-height: 22px;
+	    }
+
+		.get-in {
+		    padding: 80px 0px;
+		}
+	   .get-in .inner-touch {
+	        margin: 40px 0px;
+	    }
+
+		.inner-touch p {
+		    font-size: 12px;
+		    line-height: 24px;
+		}
+	    .footer{
+	    	padding: 20px 0px;
+	    }
+        .footer .inner-footer{
+			margin: 20px 0px ;
+		}
+		.footer .inner-footer p {
+		    font-size: 12px;
+		    line-height: 22px;
+		}
+
+
+              /* CSS End*/ 
+}
+
+
+
