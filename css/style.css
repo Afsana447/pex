@@ -60,7 +60,7 @@ a, a:hover{
 .header .submit .fa{
 	color:  #b6b6b6;
 	font-size: 14px;
-	right: 10%;
+	left: 2%;
         top: 40%;
 	position: absolute;
 }
